@@ -13,7 +13,7 @@ inputToRead = "/home/j/git/ETL1-Pipeline/data/inputs/new/rxjava_full/rxjava_full
 
 Research2.ipynb is on charge of splitting the file names commited by PRs into their own columns for further processing and populate the PR table. Files  not related to source code are deleted. For this reason, the cell responsible for the deletion should be updated with the pertinent source code file extension. Example: for Java files the cell should persist only files with extension ".java". It persists the pr (number of the PR) title, and body.
 
-The version to process author's skills persists the pr (number of the PR) title, body and author.
+The version to process author's skills persists the pr (number of the PR) title, body and author and it is called Research4. We suggest to create one notebook for each project.
 
 The notebook writes three outputs:
 fileNameOutput = "/home/j/git/ETL1-Pipeline/data/outputs/new/rxjava/dataframe_file_names.csv"
