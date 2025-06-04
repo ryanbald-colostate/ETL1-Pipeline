@@ -27,3 +27,8 @@ The filesPR3_TXT_Output is used in the next step.
 The figure file OSL_pipeline-inputs.png shows the entire pipeline (ETL1 and ETL2). Observe the input for the Research2.ipynb in the figure is another file produced by the Classifier.R. This step is not necessary anymore. Next version of the picture will remove it.
 
 ![OSL_pipeline-inputs](https://user-images.githubusercontent.com/34105280/212744629-529b7dc9-6a4e-4869-a7e5-2c2b51affdc8.png)
+
+NOTE June 4, 2025:
+    Currently, closed commit data can go dirrectly through updated_Research2.ipynb to get the output.
+    New data (files from mining project, starting with master_all) required column names to be changed, but the values should be equivalent.
+    Columns extracted: issue_number, author_name, files, patch_text, body, title.
